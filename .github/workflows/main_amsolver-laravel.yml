@@ -56,5 +56,5 @@ jobs:
         with:
           app-name: 'AMSolver-laravel'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_98D482F6060D4F77BD9B144E277CB24C }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_11CF220A8F5F4C509E0B172DFC5CED1F }}
           package: .
