@@ -1,5 +1,7 @@
 <?php
 
-\Illuminate\Support\Facades\Route::get('/', function () {
-    return 'Bienvenido a mi sitio Laravel en Azure';
+use Illuminate\Support\Facades\Route;
+
+Route::get('/metric', function () {
+    return 'Hola desde Laravel';
 });
